@@ -1,3 +1,6 @@
+import React from 'react';
+
+// ADD API' AND STYLES
 
 function Result() {
     return (
@@ -9,5 +12,3 @@ function Result() {
 }
 
 export default Result;
-
-// ADD API' AND STYLES
