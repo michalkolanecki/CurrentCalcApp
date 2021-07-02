@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from '../components/Nav';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import { makeStyles } from '@material-ui/core/styles';
@@ -16,6 +17,7 @@ export default function AboutMe() {
     const classes = useStyles();
     return (
         <Container>
+            <Nav />
             <Typography
                 className={classes.title}
                 variant="h3"
