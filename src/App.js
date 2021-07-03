@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import AboutMe from './pages/AboutMe';
 import Home from './pages/Home';
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import Nav from './components/Nav';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import { createMuiTheme, ThemeProvider } from '@material-ui/core';
 
 const theme = createMuiTheme({
@@ -21,13 +22,10 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Router>
+        <Nav />
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/aboutme">
-            <AboutMe />
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route path="/aboutme" component={AboutMe} />
         </Switch>
       </Router>
     </ThemeProvider>

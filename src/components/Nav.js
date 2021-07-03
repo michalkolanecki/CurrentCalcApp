@@ -3,13 +3,18 @@ import Typography from '@material-ui/core/Typography';
 import React from 'react';
 import Toolbar from '@material-ui/core/Toolbar';
 import { makeStyles } from '@material-ui/core/styles';
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
     navbar: {
-        padding: '30px 0',
+        padding: 0,
     },
     navText: {
         padding: '10px 20px',
+    },
+    navLink: {
+        color: 'white',
+        textDecoration: 'none',
     },
 });
 
@@ -19,18 +24,22 @@ export default function Nav() {
         <div>
             <AppBar position="static" className={classes.navbar}>
                 <Toolbar>
-                    <Typography 
-                        variant="h5"
-                        className={classes.navText}    
-                    >
-                        Home
-                    </Typography>
-                    <Typography 
-                        variant="h5"
-                        className={classes.navText}
-                    >
-                        About Me
-                    </Typography>
+                    <Link to="/" className={classes.navLink}>
+                        <Typography 
+                            variant="h5"
+                            className={classes.navText}    
+                        >
+                            Home
+                        </Typography>
+                    </Link>
+                    <Link to="/aboutme" className={classes.navLink}>
+                        <Typography 
+                            variant="h5"
+                            className={classes.navText}
+                        >
+                            About Me
+                        </Typography>
+                    </Link>
                 </Toolbar>
             </AppBar>
         </div>
