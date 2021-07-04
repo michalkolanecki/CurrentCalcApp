@@ -1,15 +1,22 @@
 import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
 
-// ADD API RESULTS AND STYLES
+const useStyles = makeStyles({
+  fieldResult: {
+    marginTop: 50,
+    textAlign: 'center',
+  },
+})
 
-function Result() {
+export default function SetDate() {
+
+  const classes = useStyles();
+
     return (
       <div className="Result">
-          <h3>USD = ZŁ - from specific day</h3>
-          <h3>USD = ZŁ - from date period</h3>
-          <h4>USD to ZŁ</h4>
+          <div className={classes.fieldResult}>
+            <h3>Result for buy ad sell currency</h3>
+          </div>
       </div>
     );
 }
-
-export default Result;
