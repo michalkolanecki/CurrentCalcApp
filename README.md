@@ -1,8 +1,12 @@
 This is simple currency calculator with two pages Home and About Me where I use React Router to change pages.
 In this case I used React.js to do main functionalities and Material UI to do layout.
 
+
+
 Project has one function - selecting a value multiplying by the current converted currency sell rate and show results.
 Currency value is downloading from NBP api today's date.
+
+
 
 
 `npm install`
