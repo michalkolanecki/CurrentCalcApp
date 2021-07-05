@@ -8,6 +8,18 @@ const useStyles = makeStyles({
     },
 })
 
+function zero(number) {
+    return (number = number < 10 ? "0" + number : number);
+};
+
+const currentDate = new Date();
+const dateFormat =
+  currentDate.getFullYear() +
+  "-" +
+  zero(currentDate.getMonth() + 1) +
+  "-" +
+  zero(currentDate.getDate());
+
 export default function SetDate() {
 
     const classes = useStyles();
