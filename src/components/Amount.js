@@ -5,7 +5,6 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import SelectCurrency from "./SelectCurrency";
 import CurrencyValue from "./CurrencyValue";
-import SetDate from "./SetDate";
 import Result from "./Result";
 
 const useStyles = makeStyles({
@@ -73,11 +72,6 @@ export default function Amount() {
                 currencyOption={currencyOption}
                 onSelectedCurrencyValueChange={onSelectedCurrencyChange}
               />
-            </Paper>
-          </Grid>
-          <Grid item sm={4} md={4} lg={4}>
-            <Paper className={classes.paperElem}>
-              <SetDate />
             </Paper>
           </Grid>
         </Grid>

@@ -1,36 +1,38 @@
-This is simple currency calculator with two pages Home and About Me where I use React Router to change pages.
-In this case I used React.js to do main functionalities and Material UI to do layout.
+# CURRENT CALCULATION APPLICATION
 
+This is simple **currency calculator** with two pages **Home** and **About Me**.
+Layout for pages was created with **Material UI**.
 
+Technology I used are **React.JS** and for change pages **React Router**.
 
-Project has one function - selecting a value multiplying by the current converted currency sell rate and show results.
-Currency value is downloading from NBP api today's date.
+Project has **one function** - **selecting a value multiplying by the current converted currency sell rate and show results**.
+Currency value is downloading from NBP api with today's date.
 
+If you want to use this application you must follow after bellow commands:
 
-
-
-`npm install`
+**`npm install`**
 To install node_modules write this command.
 This command would install whole dependencies.
 
-`npm start`
+**`npm start`**
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-`npm test`
-Launches the test runner in the interactive watch mode.
 
-`npm run build`
-Builds the app for production to the `build` folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
-The build is minified and the filenames include the hashes.
+### HOMEPAGE
 
-`npm run eject`
-Note: this is a one-way operation. Once you `eject`, you can’t go back!
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![cover](./img/homepage.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### SHOW HOW WORKS CONVERTER
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![cover](./img/convertwork.png)
+
+### ABOUT ME AND SOME COMMENTS SECTION
+
+![cover](./img/result.png)
+
+### PAGE ABOUT ME
+
+![cover](./img/aboutme.png)
