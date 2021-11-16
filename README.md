@@ -3,7 +3,7 @@
 This is simple **currency calculator** with two pages **Home** and **About Me**.
 Layout for pages was created with **Material UI**.
 
-Technology I used are **React.JS** and for change pages **React Router**.
+## Technology I used are **React.JS** and for change pages **React Router**.
 
 Project has **one function** - **selecting a value multiplying by the current converted currency sell rate and show results**.
 Currency value is downloading from NBP api with today's date.
@@ -27,7 +27,7 @@ You will also see any lint errors in the console.
 
 ### SHOW HOW WORKS CONVERTER
 
-![cover](./img/convertwork.png)
+![cover](./img/converterwork.png)
 
 ### ABOUT ME AND SOME COMMENTS SECTION
 
